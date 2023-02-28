@@ -1,0 +1,48 @@
+1. python 설치
+
+   - python core 설치 (python.org)
+
+   - 배포판 설치 (anaconda, miniconda)
+
+2. miniconda 설치 후 환경설정
+
+   환경변수 : MINICONDA_HOME, Path 설정
+
+3. miniconda 초기화
+
+   - conda init
+
+4. 가상 파이썬 환경 만들기 ( 신규 파이썬 설치하기 )
+
+   conda info --envs ---> 현재 설치된 파이썬 목록
+   conda create --name kdt-da python=3.9 ---> 새로 만들기
+   conda info --envs
+
+5. 가상 파이썬 환경 사용
+
+   conda activate kdt-da
+
+6. visual studio code 설치 ( 파이썬 분석 및 개발 도구 )
+
+7. 파이썬 도구 visual studio code에 추가 설치
+
+   python (microsoft) extension 설치 ( jupyter 도구 자동 설치)
+
+8. jupyter  파이썬 패키지 설치
+
+   pip install jupyter jupyterlab
+
+9. 파이썬 실행
+
+   - abc.py 파일 만들고 실행 : python abc.py
+
+   - repl : python 실행 후 명령 입력
+
+   - abc.ipynb 파일 만들고 실행 : ctrl + enter
+
+
+
+
+
+
+
